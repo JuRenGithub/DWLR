@@ -5,6 +5,7 @@ import argparse
 import torch
 import random
 import pickle
+from sklearn.model_selection import train_test_split
 
 
 parser = argparse.ArgumentParser()
@@ -40,21 +41,21 @@ parser.add_argument('--v_dim', type=int, default=32)
 
 
 # use wisdm as example
-def get_wisdm_data(user, mode='train'):
+def get_wisdm_data(user):
     data_path = './wisdm/dataset/'
-    with open(os.path.join(data_path, f'{user}_{mode}_datas.pkl'), 'rb') as fo:
+    with open(os.path.join(data_path, f'{user}_datas.pkl'), 'rb') as fo:
         x = pickle.load(fo)
         x = (x-np.mean(x, axis=0))/(np.std(x, axis=0)+1e-8)
-    with open(os.path.join(data_path, f'{user}_{mode}_labels.pkl'), 'rb') as fo:
+    with open(os.path.join(data_path, f'{user}_labels.pkl'), 'rb') as fo:
         y = pickle.load(fo)
+    
     return x, y
 
 
 def main(config, save_path):
     x_source, y_source = get_wisdm_data(config.source)
-    x_target, y_target = get_wisdm_data(config.target)
-    x_test, y_test = get_wisdm_data(config.target, mode='test')
-
+    x_target_all, y_target_all = get_wisdm_data(config.target)
+    x_target, x_test, y_target, y_test = train_test_split(x_target_all, y_target_all, train_size=0.6, shuffle=True)
     model = DWLR(config, save_path)
     model.fit(x_source, y_source, x_target, config.epochs, y_target=y_target, x_test=x_test, y_test=y_test)
 
@@ -67,6 +68,7 @@ def set_global_random_seed(seed):
     torch.backends.cudnn.benchmark = True
 
 
+# This is a example code, not the full code!
 if __name__ == '__main__':
     set_global_random_seed(43)
     config = parser.parse_args()
