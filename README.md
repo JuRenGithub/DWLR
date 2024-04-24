@@ -1,5 +1,5 @@
 # DWLR
-This repository contains a preliminary representation of the code of DWLR. More detailed specifics will be updated in the camera-ready version.
+This repository contains a preliminary representation of the code of DWLR. 
 
 ## Requirements
 The recommended requirements for DWLR are specified as follow:
