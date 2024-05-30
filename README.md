@@ -11,6 +11,8 @@ $^2$ Huawei Noah’s Ark Lab
 
 This repo is the implementation of paper "DWLR: Domain Adaptation under Label Shift for Wearable Sensor" accepted by **IJCAI' 24**.
 
+The [Appendix](https://github.com/JuRenGithub/DWLR/blob/main/Appendix.pdf) to the paper is available in this repository.
+
 
 ## DWLR
 ![Framework](./assets/DWLR.png)
