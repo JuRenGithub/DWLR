@@ -13,7 +13,7 @@ This repo is the implementation of paper "DWLR: Domain Adaptation under Label Sh
 
 
 ## DWLR
-[![Framework](./assets/framework.pdf)]
+![Framework](./assets/DWLR.png)
 
 In this work, we propose <u>D</u>omain adaptation under label shift for <u>W</u>earable sensor with <u>L</u>earnable <u>R</u>eweighting (**DWLR**) to handle both feature and label shifts. 
 Specifically, DWLR employs learnable reweighting to align label distributions between source and target domains. 
