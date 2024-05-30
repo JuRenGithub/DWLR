@@ -1,4 +1,4 @@
-from DWLR_model import DWLR
+from DWLR.DWLR_model import DWLR
 import os
 import numpy as np
 import argparse
@@ -68,9 +68,8 @@ def set_global_random_seed(seed):
     torch.backends.cudnn.benchmark = True
 
 
-# This is a example code, not the full code!
 if __name__ == '__main__':
-    set_global_random_seed(43)
+    set_global_random_seed(0)  # you can use different seed 
     config = parser.parse_args()
     os.environ['CUDA_VISIBLE_DEVICES'] = str(config.cuda)
 
