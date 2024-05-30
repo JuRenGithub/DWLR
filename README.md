@@ -1,6 +1,6 @@
 # DWLR: Domain Adaptation under Label Shift for Wearable Sensor
 
-[Juren Li $^1$](jrlee@zju.edu.cn), [Yang Yang $^{1*}$](yangya@zju.edu.cn), [Youmin Chen $^1$](youminchen@zju.edu.cn), [Jianfeng Zhang $^2$](zhangjianfeng3@huawei.com), [Zeyu Lai $^1$](jerrylai@zju.edu.cn), [Lujia Pan $^2$](panlujia@huawei.com). ( $^*$ Correspondence )
+[Juren Li](jrlee@zju.edu.cn)$^1$, [Yang Yang](yangya@zju.edu.cn)$^{1*}$, [Youmin Chen](youminchen@zju.edu.cn)$^1$, [Jianfeng Zhang](zhangjianfeng3@huawei.com)$^2$, [Zeyu Lai](jerrylai@zju.edu.cn)$^1$, [Lujia Pan](panlujia@huawei.com)$^2$. ( $^*$ Correspondence )
 
 $^1$ College of Computer Science and Technology, Zhejiang University
 
@@ -9,7 +9,7 @@ $^2$ Huawei Noah’s Ark Lab
 ---
 [![PaperPDF](https://img.shields.io/badge/Paper-PDF-red)](https://yangy.org/works/domain/IJCAI24_DWLR.pdf)
 
-This repo is the implementation of paper “DWLR: Domain Adaptation under Label Shift for Wearable Sensor" accepted by **IJCAI' 24**.
+This repo is the implementation of paper "DWLR: Domain Adaptation under Label Shift for Wearable Sensor" accepted by **IJCAI' 24**.
 
 
 ## DWLR
