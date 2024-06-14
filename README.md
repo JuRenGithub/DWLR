@@ -1,6 +1,6 @@
 # DWLR: Domain Adaptation under Label Shift for Wearable Sensor
 
-[Juren Li](jrlee@zju.edu.cn)$^1$, [Yang Yang](yangya@zju.edu.cn)$^{1*}$, [Youmin Chen](youminchen@zju.edu.cn)$^1$, [Jianfeng Zhang](zhangjianfeng3@huawei.com)$^2$, [Zeyu Lai](jerrylai@zju.edu.cn)$^1$, [Lujia Pan](panlujia@huawei.com)$^2$. ( $^*$ Correspondence )
+[Juren Li](mailto:jrlee@zju.edu.cn)$^1$, [Yang Yang](mailto:yangya@zju.edu.cn)$^{1*}$, [Youmin Chen](mailto:youminchen@zju.edu.cn)$^1$, [Jianfeng Zhang](mailto:zhangjianfeng3@huawei.com)$^2$, [Zeyu Lai](mailto:jerrylai@zju.edu.cn)$^1$, [Lujia Pan](mailto:panlujia@huawei.com)$^2$. ( $^*$ Correspondence )
 
 $^1$ College of Computer Science and Technology, Zhejiang University
 
