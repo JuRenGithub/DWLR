@@ -8,8 +8,9 @@ $^2$ Huawei Noah’s Ark Lab
 
 ---
 [![PaperPDF](https://img.shields.io/badge/Paper-PDF-red)](https://yangy.org/works/domain/IJCAI24_DWLR.pdf)
+[![Blog](https://img.shields.io/badge/推文-中文-green)](https://mp.weixin.qq.com/s/8OtVcMLxWYC4eGMOb8-T3w)
 
-This repo is the implementation of paper "DWLR: Domain Adaptation under Label Shift for Wearable Sensor" accepted by **IJCAI' 24**.
+This repo is the implementation of paper "DWLR: Domain Adaptation under Label Shift for Wearable Sensor" accepted by [**IJCAI' 24**](https://ijcai24.org/).
 
 The [Appendix](https://github.com/JuRenGithub/DWLR/blob/main/Appendix.pdf) to the paper is available in this repository.
 
@@ -35,6 +36,25 @@ The dependencies can be installed by:
  ```bash
 pip install -r requirements.txt
  ```
+
+ ## File Structure
+```
+.
+├── assets
+│   └── DWLR.png
+├── data
+│   └── wisdm
+├── DWLR
+│   ├── dataset.py
+│   ├── common.py
+│   ├── backbone.py
+│   └── DWLR_model.py
+├── Appendix.pdf
+├── main.py
+├── process_data.ipynb
+├── README.md
+└── requirements.txt
+```
 
 ## Dataset
 
