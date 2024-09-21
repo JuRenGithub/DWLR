@@ -107,11 +107,18 @@ If you have any question about the code or the paper, feel free to contact me th
 If you find DWLR useful in your research or applications, please kindly cite:
 
 ```
-@inproceedings{li2024dwlr,
-  title={DWLR: Domain Adaptation under Label Shift for Wearable Sensor},
-  author={Juren Li and Yang Yang and Youmin Chen and Jianfeng Zhang and Zeyu Lai and Lujia Pan},
-  booktitle={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-  year={2024},
-  note={Accepted}
+@inproceedings{ljrDWLR2024,
+  title     = {DWLR: Domain Adaptation under Label Shift for Wearable Sensor},
+  author    = {Li, Juren and Yang, Yang and Chen, Youmin and Zhang, Jianfeng and Lai, Zeyu and Pan, Lujia},
+  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
+               Artificial Intelligence, {IJCAI-24}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Kate Larson},
+  pages     = {4425--4433},
+  year      = {2024},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2024/489},
+  url       = {https://doi.org/10.24963/ijcai.2024/489},
 }
 ```
