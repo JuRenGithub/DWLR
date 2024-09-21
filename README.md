@@ -7,7 +7,7 @@ $^1$ College of Computer Science and Technology, Zhejiang University
 $^2$ Huawei Noah’s Ark Lab
 
 ---
-[![PaperPDF](https://img.shields.io/badge/Paper-PDF-red)](https://yangy.org/works/domain/IJCAI24_DWLR.pdf)
+[![PaperPDF](https://img.shields.io/badge/Paper-IJCAI-red)](https://www.ijcai.org/proceedings/2024/489)
 [![Blog](https://img.shields.io/badge/推文-中文-green)](https://mp.weixin.qq.com/s/8OtVcMLxWYC4eGMOb8-T3w)
 
 This repo is the implementation of paper "DWLR: Domain Adaptation under Label Shift for Wearable Sensor" accepted by [**IJCAI' 24**](https://ijcai24.org/).
